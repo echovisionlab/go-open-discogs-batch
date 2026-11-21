@@ -2,6 +2,8 @@ module github.com/echovisionlab/go-open-discogs-batch
 
 go 1.27.2
 
+toolchain go1.27.4
+
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/cavaliergopher/grab/v3 v3.0.1
