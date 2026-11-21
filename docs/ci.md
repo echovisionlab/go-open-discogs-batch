@@ -44,10 +44,8 @@ Use [Conventional Commits](https://www.conventionalcommits.org/) for PR titles
 and commit subjects. Use `docs:` for documentation and `ci:` for workflow
 changes; release behavior is configured separately by each repository.
 
-## Organization migration release order
+## Updating the model dependency
 
-TODO: Wait for a model release tagged with the
-`github.com/echovisionlab/open-discogs-model` module path. Then bump the model
-dependency from the retained v1.0.0 placeholder and regenerate its `go.sum`
-entries before releasing this application. Old-path checksums were removed
-during the offline migration; new-path checksums must come from the new release.
+Use a published tag of `github.com/echovisionlab/open-discogs-model` when
+updating the model. Commit the version in `go.mod` and its checksums in `go.sum`
+before releasing this application.

@@ -6,11 +6,10 @@ durable progress, and idempotent recovery.
 Use this importer with [Go OpenDiscogs API](https://github.com/echovisionlab/go-open-discogs-api)
 for new deployments.
 
-This release consumes canonical
-[`open-discogs-model`](https://github.com/echovisionlab/open-discogs-model) v1.0.0.
-The model now maintains Go packages, SQL migrations, and import contracts. Its
-[v1 migration guide](https://github.com/echovisionlab/open-discogs-model/blob/v1.0.0/docs/migration-to-v1.md)
-describes the Java publication retirement; the SQL bytes and Go APIs are unchanged.
+The importer uses the Go types, SQL migrations, and import contracts from
+[OpenDiscogs model v1.0.1](https://github.com/echovisionlab/open-discogs-model/releases/tag/v1.0.1).
+The [v1 migration guide](https://github.com/echovisionlab/open-discogs-model/blob/v1.0.1/docs/migration-to-v1.md)
+covers the retirement of Java publication.
 This is an independent project and is not endorsed by Discogs.
 
 The [Java Batch repository](https://github.com/echovisionlab/open-discogs-batch) is
