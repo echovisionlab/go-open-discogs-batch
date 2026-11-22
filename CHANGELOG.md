@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.15](https://github.com/echovisionlab/go-open-discogs-batch/compare/v2.3.14...v2.3.15) (2026-11-21)
+
+
+### Bug Fixes
+
+* patch the compression dependency and update the Go builder ([#104](https://github.com/echovisionlab/go-open-discogs-batch/issues/104)) ([8d4fd1a](https://github.com/echovisionlab/go-open-discogs-batch/commit/8d4fd1ab3bf1265c8e4ff42f3049e8d8e8ed181b))
+
 ## [2.3.14](https://github.com/echovisionlab/go-open-discogs-batch/compare/v2.3.13...v2.3.14) (2026-10-15)
 
 
